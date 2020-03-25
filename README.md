@@ -27,4 +27,4 @@ Created a sample application for FourWinds to demonstrate @brightsign/assetpoolf
 
 ### Trigger the download
 
-* Now trigger the download by visiting http://<ip address of brightsign player>:9090/fetch-files in a browser
+* Now trigger the download by visiting http://==ip address of brightsign player==:9090/fetch-files in a browser
