@@ -14,7 +14,7 @@ Created a sample application for FourWinds to demonstrate @brightsign/assetpoolf
 
 * When you publish your project from BA:connected, specify the url to the folder on your laptop, e.g. http://10.0.0.88:8081
 * Host this using a web server, e.g. run http-server (https://www.npmjs.com/package/http-server) on a laptop
-* Change the url at the top of fetcher.js from http://10.0.0.88:8081/current-sync.json to point to your web server, that is, http://<your laptop ip address>:<your port>/current-sync.json
+* Change the url at the top of fetcher.js from http://10.0.0.88:8081/current-sync.json to point to your web server, that is, http://==your laptop ip address==:==your port==/current-sync.json
 
 ### Set up the player
 
