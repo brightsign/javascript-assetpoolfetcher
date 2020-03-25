@@ -1,0 +1,21 @@
+{
+  "name": "BrightSign-Node.js-Sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "support@brightsign.biz (http://www.brightsign.biz/)",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "5.0.4",
+    "eslint": "6.8.0",
+    "eslint-loader": "3.0.3",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.7"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "request": "2.88.2"
+  }
+}
