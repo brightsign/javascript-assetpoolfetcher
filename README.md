@@ -1,7 +1,7 @@
 # javascript-assetpoolfetcher
 How to use @brightsign/assetpool and @brightsign/assetpoolfetcher to download files to your BrightSign player
 
-Created a sample application for FourWinds to demonstrate @brightsign/assetpoolfetcher. See https://docs.brightsign.biz/display/DOC/assetpoolfetcher for documentation.
+Created a sample application to demonstrate @brightsign/assetpoolfetcher. See https://docs.brightsign.biz/display/DOC/assetpoolfetcher for documentation.
 
 ## Prerequisites:
 
