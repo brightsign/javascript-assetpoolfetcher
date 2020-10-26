@@ -34,13 +34,12 @@ function start() {
     console.log(`initializing download`);
     const storage = '/storage/sd/';
     const poolpathname = path.join(storage, "myassets");
-    const storagename = path.basename(storage).toUpperCase() + ":/";
-    console.log(`storagename '${storagename}'.`);
+    console.log(`poolpathname: '${poolpathname}'.`);
     if (!fs.existsSync(poolpathname)) {
       fs.mkdirSync(poolpathname);
     }
 
-    const assetpool = new AssetPoolClass(path.join(storagename, path.basename(poolpathname)));
+    const assetpool = new AssetPoolClass(poolpathname);
     const assetpoolfetcher = new AssetPoolFetcherClass(assetpool);
 
     assetpoolfetcher.addEventListener("fileevent", function(data) {
